@@ -25,6 +25,7 @@
     color: #002765;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -60,6 +61,11 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+}
+
+button:hover{
+    background: gray;
+    transition-delay: 50ms;
 }
 
 ul li{
