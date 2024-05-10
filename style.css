@@ -115,3 +115,26 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+.prev-list{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.prev-list h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:#002765;
+}
+
+.prev-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
